@@ -128,6 +128,19 @@ input, select {
   font-family: "Courier New", monospace;
 }
 
+.support {
+  position: relative;
+  font-size: 3vh;
+  text-align: center;
+  top: 35vh;
+  font-family: "Courier New", monospace;
+}
+
+.support > a {
+  text-decoration: none;
+  color: #9E9E9E;
+}
+
 .season>h2{
   color: #9E9E9E;
   position: relative;
