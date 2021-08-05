@@ -116,6 +116,11 @@ input, select {
   width: 40%;
 }
 
+.model_img {
+  margin-top: 3vh;
+  width: 26%;
+}
+
 .logo_image {
   margin-top: 3vh;
   margin-left: auto;
