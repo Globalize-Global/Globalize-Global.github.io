@@ -96,7 +96,7 @@ input, select {
 /* MY STYLING */
 .top_head {
   position: fixed;
-  z-index: -1;
+  z-index: 10;
   top = 0;
   width: 100%;
   background-color: black;
@@ -136,6 +136,34 @@ input, select {
   font-family: "Courier New", monospace;
 }
 
+.look {
+  position: relative;
+  font-size: 3vh;
+  text-align: center;
+  top: 38vh;
+  font-family: "Courier New", monospace;
+}
+
+.look>a {
+  text-decoration: none;
+  color: #9E9E9E;
+}
+
+.lookbook_image {
+  position: relative;
+  font-size: 4vh;
+  text-align: center;
+  top: 15vh;
+  font-family: "Courier New", monospace;
+  margin-bottom: 10%;
+}
+
+
+.lookbook_image > img {
+  margin-top: 3vh;
+  width: 30%;
+}
+
 .support > a {
   text-decoration: none;
   color: #9E9E9E;
@@ -148,10 +176,14 @@ input, select {
   font-size: 3vh * 1vw;
 }
 
+#bottom {
+  margin-bottom: 50vh;
+}
+
 .footer{
-  position: absolute;
+  position: fixed;
   background-color: black;
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   bottom: 0;
 
