@@ -144,6 +144,27 @@ input, select {
   font-family: "Courier New", monospace;
 }
 
+.mission {
+  position: relative;
+  font-size: 3vh;
+  text-align: center;
+  top: 41vh;
+  font-family: "Courier New", monospace;
+}
+
+.mission>a {
+  text-decoration: none;
+  color: #9E9E9E;
+}
+
+.content {
+  position: relative;
+  font-size: 3vh;
+  text-align: center;
+  top: 35vh;
+  font-family: "Courier New", monospace;
+}
+
 .look>a {
   text-decoration: none;
   color: #9E9E9E;
